@@ -19,3 +19,4 @@ csvstack weather_2014.csv weather_2015.csv > weather.csv
 rm weather_data.xlsx text.txt
 
 csvlook weather.csv | sample -r 0.3 > sample_weather.csv
+
